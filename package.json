@@ -1,0 +1,32 @@
+{
+  "name": "techsolutions-inventory-saas",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "types:generate": "supabase gen types typescript --project-id $PROJECT_ID > lib/database.types.ts"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.89.0",
+    "@tanstack/react-query": "^5.90.14",
+    "@tanstack/react-query-devtools": "^5.91.2",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-hook-form": "^7.69.0",
+    "recharts": "^3.6.0",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "supabase": "^2.67.3",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
